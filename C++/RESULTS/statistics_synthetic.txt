@@ -1,0 +1,1 @@
+n_e(s,d) n_t(s) n_r(s) n elt_1 elt_2

@@ -11,7 +11,7 @@ So the responsibility for the results and conclusions obtained by using this
 software falls to the user.
 
 For more information feel free to contact Christophe Reype at: 
-christophe.reype@inraer.fr .
+chris.reype@gmail.com .
 
 The archive contains the following directories:
 
@@ -46,7 +46,11 @@ C++ programs have to be used.
 	The directory C++/PARAMS contains the parameter files needed by the 
 programs, and referred to in the batch files of the EXEC directory.
 
-	The directory R contains a Rshiny application "Hug_application", that can be used to normalise the data, create the region of interest, creates the parameters file and plotting the results. The script "hug_script.R" contains the core functions used in the application. 
+	The directory R contains a script, "plot_Hug.R", which can be used to 
+plot the results. It also includes an executable, "Hug_application.bat",
+which can be used to normalise the data, create the region of interest, 
+creates the parameters file and plotting the results. To work properly, 
+the folder "Rshiny.7z" must be extracted into this directory.
 
 	The user has to check that the path to the data file is correct.
 

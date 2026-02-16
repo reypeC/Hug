@@ -5,11 +5,11 @@
 //seed_C
 5791
 //number_iteration
-100
+1000
 //number_application_of_MH_algorithm_per_iteration
 50
 //number_of_iteration_between_save
-1000
+100
 //initial_temperature
 1000.0
 //minimal_temperature

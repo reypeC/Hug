@@ -11,11 +11,11 @@
 //number_of_iteration_between_save
 100
 //initial_temperature
-1000.0
+1.0
 //minimal_temperature
-0.0001
+1.0
 //cooling_coefficient_temperature
-0.9999
+1.0
 //probability_of_birth
 0.2
 //probability_of_death

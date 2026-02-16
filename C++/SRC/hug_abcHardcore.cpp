@@ -66,8 +66,8 @@ int main(int argc, char *argv[])
   int mh_time; // nb iterations in MH in the generation of realisation
 
   // sources, hull and other details;
-  char selected_planes[200] = "(1,2);(1,3);(2,3)",
-       radius_planes[200] = "0.1;0.1;0.1",
+  char selected_planes[1000] = "(1,2);(1,3);(2,3)",
+       radius_planes[1000] = "0.1;0.1;0.1",
        data[200] = "../DATA/data.txt",
        truesources[200] = "../DATA/true_sources.txt",
        sources[200] = "../RESULTS/sources.txt",

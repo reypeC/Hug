@@ -22,14 +22,14 @@ R : R code for the preparation and the presentation of the data.
 The data files used can be found in the directory C++/DATA. This directory contains the synthetic data set,the Mexico data set and the Athabasca data set.
 
 # 2. PROGRAMS
-	The program sources are in the directory C++/SRC. The programs that we have written to implement our model are built using the standard C++ object oriented programming language. The programs are derived from DRLib, two C++ library. The DRLib is used to modeling, simulation and inference of markedpoint processes and is developped at Institut Elie Cartan de Lorraine by D. Gemmerlé, R.S. Stoica, C. Reype and N. Gillot. The associated documentation is available at https://gitlab.univ-lorraine.fr/labos/iecl/drlib.
+The program sources are in the directory C++/SRC. The programs that we have written to implement our model are built using the standard C++ object oriented programming language. The programs are derived from DRLib, two C++ library. The DRLib is used to modeling, simulation and inference of markedpoint processes and is developped at Institut Elie Cartan de Lorraine by D. Gemmerlé, R.S. Stoica, C. Reype and N. Gillot. The associated documentation is available at https://gitlab.univ-lorraine.fr/labos/iecl/drlib.
 	
-	We have written no extra documentation For the present programs. But the programs themselves are written in explicit style, giving clear names to the variables and including many comments. The user can compile the programs using the provided Makefile. 
+We have written no extra documentation For the present programs. But the programs themselves are written in explicit style, giving clear names to the variables and including many comments. The user can compile the programs using the provided Makefile. 
 
-	The directory C++/EXEC contains the batch files showing how the C++ programs have to be used. 
+The directory C++/EXEC contains the batch files showing how the C++ programs have to be used. 
 	
-	The directory C++/PARAMS contains the parameter files needed by the programs, and referred to in the batch files of the EXEC directory.
+The directory C++/PARAMS contains the parameter files needed by the programs, and referred to in the batch files of the EXEC directory.
 	
-	The directory R contains a script, "plot_Hug.R", which can be used to plot the results. It also includes an executable, "Hug_application.bat",which can be used to normalise the data, create the region of interest, creates the parameters file and plotting the results. To work properly, the folder "Rshiny.7z" must be extracted into this directory.
+The directory R contains a script, "plot_Hug.R", which can be used to plot the results. It also includes an executable, "Hug_application.bat",which can be used to normalise the data, create the region of interest, creates the parameters file and plotting the results. To work properly, the folder "Rshiny.7z" must be extracted into this directory.
 	
-	The user has to check that the path to the data file is correct.
+The user has to check that the path to the data file is correct.

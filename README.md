@@ -43,11 +43,6 @@ The user has to check that the path to the data file is correct.
 
 # 3. BIBLIOGRAPHY
 
-This work relies on DRlib developed at the
-Institut Élie Cartan de Lorraine (IECL),
-Université de Lorraine:
-https://gitlab.univ-lorraine.fr/labos/iecl/drlib
-
 Reype, C. (2022). Modélisation probabiliste et inférence bayésienne pour l’analyse de la dynamique des mélanges de fluides géologiques: détection des structures et estimation des paramètres (Doctoral dissertation, Université de Lorraine).
 
 Reype, C., Stoica, R. S., Richard, A., & Deaconu, M. (2022). HUG model: an interaction point process for Bayesian detection of multiple sources in groundwaters from hydrochemical data. arXiv preprint arXiv:2208.00959.
@@ -56,6 +51,6 @@ Gemmerlé, D., Stoica, R. S., & Reype, C. (2022, August). DRlib: a C++ library f
 	
 # 4. Authors and acknowledgments
 
-Authors : Didier Gemmerlé, Radu Stefan Stoica, Chistophe Reype and Nathan Gillot.
-Contributors : Antonin Richard and Madalina Deaconu.
+Author : Didier Gemmerlé, Radu Stefan Stoica, Christophe Reype and Nathan Gillot.
+Contributors : Didier Gemmerlé, Radu Stefan Stoica, Nathan Gillot, Madalina Deaconu and Antonin Richard.
 

@@ -12,11 +12,18 @@ For more information feel free to contact Christophe Reype at: chris.reype@gmail
 The archive contains the following directories:
 
 C++/SRC : C++ source code of the programs.
+
 C++/DATA : data files used in the paper (synthetic, Mexico, Athabasca datasets).
+
 C++/EXEC : contains the batch files that demonstrate how to run the programs. 
+
 C++/PARAMS : parameter files for the executable programs.
+
 C++/RESULTS : results files used in the paper.
+
 R : R code for the preparation and the presentation of the data. 
+
+Rshiny : R code for the user interface
 
 # 1. DATA
 The data files used can be found in the directory C++/DATA. This directory contains the synthetic data set,the Mexico data set and the Athabasca data set.
@@ -27,9 +34,28 @@ The program sources are in the directory C++/SRC. The programs that we have writ
 We have written no extra documentation For the present programs. But the programs themselves are written in explicit style, giving clear names to the variables and including many comments. The user can compile the programs using the provided Makefile. 
 
 The directory C++/EXEC contains the batch files showing how the C++ programs have to be used. 
-	
+
 The directory C++/PARAMS contains the parameter files needed by the programs, and referred to in the batch files of the EXEC directory.
 	
 The directory R contains a script, "plot_Hug.R", which can be used to plot the results. It also includes an executable, "Hug_application.bat",which can be used to normalise the data, create the region of interest, creates the parameters file and plotting the results. To work properly, the folder "Rshiny.7z" must be extracted into this directory.
 	
 The user has to check that the path to the data file is correct.
+
+# 3. BIBLIOGRAPHY
+
+This work relies on DRlib developed at the
+Institut Élie Cartan de Lorraine (IECL),
+Université de Lorraine:
+https://gitlab.univ-lorraine.fr/labos/iecl/drlib
+
+Reype, C. (2022). Modélisation probabiliste et inférence bayésienne pour l’analyse de la dynamique des mélanges de fluides géologiques: détection des structures et estimation des paramètres (Doctoral dissertation, Université de Lorraine).
+
+Reype, C., Stoica, R. S., Richard, A., & Deaconu, M. (2022). HUG model: an interaction point process for Bayesian detection of multiple sources in groundwaters from hydrochemical data. arXiv preprint arXiv:2208.00959.
+
+Gemmerlé, D., Stoica, R. S., & Reype, C. (2022, August). DRlib: a C++ library for marked Gibbs point processes simulation and inference. In 21st Annual Conference of the International Association for Mathematical Geosciences, IAMG 2022.
+	
+# 4. Authors and acknowledgments
+
+Authors : Didier Gemmerlé, Radu Stefan Stoica, Chistophe Reype and Nathan Gillot.
+Contributors : Antonin Richard and Madalina Deaconu.
+
